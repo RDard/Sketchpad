@@ -1,0 +1,20 @@
+#container {
+	height: 960px;
+	width: 960px;
+	background-color: blue;
+	display: inline-block;
+}
+
+.row {
+	height: 25px;
+	width: 960px;
+	display: block;
+	background-color: green;
+}
+
+.square {
+	height: 25px;
+	width: 20px;
+	display: inline-block;
+	background-color: yellow;
+}
