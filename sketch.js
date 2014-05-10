@@ -1,5 +1,4 @@
 $(document).ready(function(){
-	$('body').css({'background-color':'red'});
 	for (var i = 0; i < 16; i++) {
 		$("#container").append("<div class='row'></div>");
 	};	
@@ -8,6 +7,13 @@ $(document).ready(function(){
 				$(this).append("<div class='square'></div>");
 				};
 		});
+
+	$('.square').mouseenter(function(){
+		$(this).addClass("draw");
+	});
 });
+
+
+
 
 alert("test2");
