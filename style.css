@@ -1,7 +1,6 @@
 #container {
 	height: 960px;
 	width: 960px;
-	background-color: blue;
 	display: inline-block;
 }
 
@@ -9,7 +8,6 @@
 	height: 60px;
 	width: 960px;
 	display: block;
-	background-color: green;
 }
 
 .square {
